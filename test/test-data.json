@@ -1,0 +1,52 @@
+[
+	{
+		"array": [],
+		"sorted": true
+	},
+	{
+		"array": [5],
+		"sorted": true
+	},
+	{
+		"array": [3, 8],
+		"sorted": true
+	},
+	{
+		"array": [2, 2.5, 8],
+		"sorted": true
+	},
+	{
+		"array": [9, 8, 7, 6],
+		"customCompare": "LargerToSmaller",
+		"sorted": true
+	},
+	{
+		"array": ["a", "b", "c"],
+		"sorted": true
+	},
+	{
+		"array": ["a", "m", "c"],
+		"sorted": false
+	},
+	{
+		"array": ["a", "M", "m"],
+		"sorted": false
+	},
+	{
+		"array": ["a", "M", "c"],
+		"sorted": false
+	},
+	{
+		"array": ["ab", "ac", "ad"],
+		"sorted": true
+	},
+	{
+		"array": ["ad", "ac", "ab"],
+		"customCompare": "LargerToSmaller",
+		"sorted": true
+	},
+	{
+		"array": ["ab", "aM", "cb"],
+		"sorted": false
+	}
+]

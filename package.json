@@ -1,0 +1,20 @@
+{
+  "name": "array-sorted",
+  "version": "1.0.0",
+  "description": "check an array is sorted or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run-script unit",
+    "unit": "tape test/*.js"
+  },
+  "keywords": [
+    "sorted",
+    "is-sorted",
+    "array-is-sorted"
+  ],
+  "author": "ballyyang",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
